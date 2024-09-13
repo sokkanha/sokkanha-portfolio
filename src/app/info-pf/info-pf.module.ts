@@ -8,6 +8,7 @@ import { InfoComponent } from './info/info.component';
   declarations: [InfoComponent],
   imports: [
     CommonModule
-  ]
+  ],
+  exports: [InfoComponent]
 })
 export class InfoPfModule { }

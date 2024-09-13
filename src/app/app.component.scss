@@ -1,0 +1,16 @@
+section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.info{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 80%;
+    margin-left: 17%;
+    margin-top: 4rem;
+}
+.contact-me{
+    margin-top: 18px;
+}

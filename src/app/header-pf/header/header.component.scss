@@ -1,0 +1,34 @@
+ul {
+    display: flex;
+    gap: 0.8rem;
+    li{font-size: 30px;}
+    li:nth-child(1) {color: #FF4E4F;}
+    li:nth-child(2) {color: #FFB800;}
+    li:nth-child(3) {color: #00CB1A;}
+}
+.banner-pf{
+    width: 100%;
+    height: 200px;
+    background-color: #FFEFE3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    p{
+        margin-left: 27rem;
+        width: 40%;
+    }
+}
+.img-pf{
+    width: 100px;
+    height: 100px;
+    background-color: #f8b582;
+    border-radius: 50%;
+    margin-left: 16%;
+    margin-top: -3rem;
+    border: 3px solid white;
+}
+.great{
+    font-size: 48px;
+    margin-left: 17%;
+    margin-top: 50px;
+}

@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "sokkanha-portfolio"
+    }
+  },
+  "defaultProject": "sokkanha-portfolio",
+  "cli": {
+    "analytics": "c74c72f3-1d42-47f6-868f-c5847ee435fc"
+  }
 }

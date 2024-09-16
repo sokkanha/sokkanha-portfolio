@@ -56,3 +56,10 @@
         background-color: #E9EEFF;
     }
 }
+
+
+@media (min-width: 360px) and (max-width: 680px){
+    .content{
+        width: 100%;
+    }
+}

@@ -30,6 +30,7 @@ a{
     p{
         width: 80%;
         margin-top: 15px;
+        
     }
 }
 .contact  {
@@ -38,4 +39,10 @@ a{
      p{
         color:#A4A4A4;
      }
+}
+
+@media (min-width: 360px) and (max-width: 680px){
+    .content p{
+        width: 100%;
+    }
 }

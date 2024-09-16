@@ -25,16 +25,45 @@ ul {
     }
 }
 .img-pf{
-    width: 100px;
-    height: 100px;
+    width: 110px;
+    height: 110px;
     background-color: #f8b582;
     border-radius: 50%;
     margin-left: 10%;
     margin-top: -3rem;
     border: 3px solid white;
+    img{
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        object-fit: cover; 
+        border-radius: 50%;
+    }
 }
 .great{
     font-size: 48px;
     margin-left: 10%;
     margin-top: 50px;
+}
+
+
+@media (min-width: 360px) and (max-width: 700px){
+    .banner-pf{
+        height: 133px;
+        p{
+            font-size: 10px;
+        }
+    }
+    .img-pf{
+        width: 90px;
+        height: 90px;
+    }
+    .great{
+        font-size: 25px;
+        margin-top: 22px;
+    }
+    .mat-icon svg{
+        width: 30px;
+        height: 30px;
+    }
 }
